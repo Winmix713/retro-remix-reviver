@@ -1,0 +1,1 @@
+import{a as e,P as s}from"./index-CjZb1nI3.js";const l=({color:r,text:a})=>e.jsxs("div",{className:"legend",children:[e.jsx("span",{className:"legend_color",style:{backgroundColor:`var(--${r})`}}),e.jsx("span",{className:"legend_text label h6",children:a})]});l.propTypes={color:s.string.isRequired,text:s.string.isRequired};export{l as L};

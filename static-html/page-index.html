@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Liga Template - Static Pages Directory</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #050913;
+      color: #f8fafc;
+    }
+    body {
+      margin: 0;
+      padding: clamp(2rem, 5vw, 4rem);
+      min-height: 100vh;
+      background: radial-gradient(circle at top, rgba(59, 130, 246, 0.15), transparent 60%);
+    }
+    .grid {
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      margin-top: 2rem;
+    }
+    .card {
+      display: block;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s ease, border 0.2s ease, background 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(59, 130, 246, 0.6);
+      background: rgba(15, 23, 42, 0.75);
+    }
+    .card-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 0.35rem;
+    }
+    .card-route {
+      font-size: 0.85rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      color: #38bdf8;
+      margin-bottom: 0.75rem;
+    }
+    .card-desc {
+      color: #cbd5f5;
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+    h1 {
+      font-weight: 700;
+      font-size: clamp(2.5rem, 4vw, 3.25rem);
+      margin-bottom: 0.5rem;
+    }
+    p.subtitle {
+      color: #94a3b8;
+      margin-bottom: 3rem;
+      max-width: 640px;
+      font-size: 1.05rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>🏆 Liga Template</h1>
+    <p class="subtitle">Static HTML export of every Envato Liga dashboard page (18 total).</p>
+    <section class="grid">
+      
+      <a class="card" href="club-summary.html">
+        <p class="card-title">Club Summary</p>
+        <p class="card-route">/</p>
+        <p class="card-desc">Club statistics, league standings, live reports, and attendance.</p>
+      </a>
+
+      <a class="card" href="game-summary.html">
+        <p class="card-title">Game Summary</p>
+        <p class="card-route">/game-summary</p>
+        <p class="card-desc">Match analytics with possession, shots, cards, and player metrics.</p>
+      </a>
+
+      <a class="card" href="championships.html">
+        <p class="card-title">Championships</p>
+        <p class="card-route">/championships</p>
+        <p class="card-desc">Tournament overview, tables, fixtures, and live brackets.</p>
+      </a>
+
+      <a class="card" href="league-overview.html">
+        <p class="card-title">League Overview</p>
+        <p class="card-route">/league-overview</p>
+        <p class="card-desc">Complete league picture with rankings, forms, and stats.</p>
+      </a>
+
+      <a class="card" href="fans-community.html">
+        <p class="card-title">Fans Community</p>
+        <p class="card-route">/fans-community</p>
+        <p class="card-desc">Fan engagement hub with chats, highlights, and polls.</p>
+      </a>
+
+      <a class="card" href="statistics.html">
+        <p class="card-title">Statistics</p>
+        <p class="card-route">/statistics</p>
+        <p class="card-desc">Advanced analytics, KPIs, and comparative data.</p>
+      </a>
+
+      <a class="card" href="match-summary.html">
+        <p class="card-title">Match Summary</p>
+        <p class="card-route">/match-summary</p>
+        <p class="card-desc">Detailed recap with data visualizations and commentary.</p>
+      </a>
+
+      <a class="card" href="match-overview.html">
+        <p class="card-title">Match Overview</p>
+        <p class="card-route">/match-overview</p>
+        <p class="card-desc">Upcoming fixtures, odds, match cards, and deadlines.</p>
+      </a>
+
+      <a class="card" href="player-profile.html">
+        <p class="card-title">Player Profile</p>
+        <p class="card-route">/player-profile</p>
+        <p class="card-desc">Player bio, performance trends, and scouting data.</p>
+      </a>
+
+      <a class="card" href="schedule.html">
+        <p class="card-title">Schedule</p>
+        <p class="card-route">/schedule</p>
+        <p class="card-desc">Calendar with matches, training sessions, and events.</p>
+      </a>
+
+      <a class="card" href="tickets.html">
+        <p class="card-title">Tickets</p>
+        <p class="card-route">/tickets</p>
+        <p class="card-desc">Smart ticketing with seat maps, offers, and filters.</p>
+      </a>
+
+      <a class="card" href="football-store.html">
+        <p class="card-title">Football Store</p>
+        <p class="card-route">/football-store</p>
+        <p class="card-desc">Club store with kits, accessories, and team collections.</p>
+      </a>
+
+      <a class="card" href="brand-store.html">
+        <p class="card-title">Brand Store</p>
+        <p class="card-route">/brand-store</p>
+        <p class="card-desc">Lifestyle store for premium drops and collaborations.</p>
+      </a>
+
+      <a class="card" href="product.html">
+        <p class="card-title">Product Detail</p>
+        <p class="card-route">/product</p>
+        <p class="card-desc">Product hero page with rich media, specs, and reviews.</p>
+      </a>
+
+      <a class="card" href="login.html">
+        <p class="card-title">Login</p>
+        <p class="card-route">/login</p>
+        <p class="card-desc">Secure authentication with modern UI.</p>
+      </a>
+
+      <a class="card" href="sign-up.html">
+        <p class="card-title">Sign Up</p>
+        <p class="card-route">/sign-up</p>
+        <p class="card-desc">Self-service onboarding and profile creation.</p>
+      </a>
+
+      <a class="card" href="settings.html">
+        <p class="card-title">Settings</p>
+        <p class="card-route">/settings</p>
+        <p class="card-desc">Preferences for theme, notifications, and security.</p>
+      </a>
+
+      <a class="card" href="page-not-found.html">
+        <p class="card-title">404 - Page Not Found</p>
+        <p class="card-route">/404</p>
+        <p class="card-desc">Friendly error state for unknown routes.</p>
+      </a>
+    </section>
+  </main>
+</body>
+</html>

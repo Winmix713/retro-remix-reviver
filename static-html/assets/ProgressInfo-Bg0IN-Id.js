@@ -1,0 +1,1 @@
+import{a as e,P as i}from"./index-CjZb1nI3.js";const a=({progress:s,text:r})=>e.jsxs("div",{className:"progress-info",children:[e.jsx("i",{className:`icon icon-chevrons-${s>0?"up positive":"down negative"}`}),e.jsxs("span",{className:"h6 label",children:[s>0?"+":"-",Math.abs(s)," ",r]})]});a.propTypes={progress:i.number.isRequired,text:i.string.isRequired};export{a as P};

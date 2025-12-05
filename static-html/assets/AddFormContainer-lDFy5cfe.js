@@ -1,0 +1,1 @@
+import{a as s,G as r,P as i}from"./index-CjZb1nI3.js";const t=({children:o,open:e})=>s.jsx("div",{style:{maxHeight:e?"100%":"0px",transition:"all ease-in-out 300ms"},children:s.jsx(r,{in:e,timeout:400,children:o})});t.propTypes={children:i.node.isRequired,open:i.bool.isRequired};export{t as A};
