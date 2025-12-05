@@ -1,0 +1,1 @@
+import{a as s}from"./index-CjZb1nI3.js";const a=({goals:e=0})=>s.jsxs("div",{className:"d-flex align-items-center g-8",children:[s.jsx("i",{className:"icon icon-ball text-12 text-header"}),s.jsxs("span",{className:"h6 text-uppercase",style:{letterSpacing:"0.45px"},children:[e," goals"]})]});export{a as G};

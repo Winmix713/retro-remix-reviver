@@ -1,0 +1,1 @@
+import{a as t}from"./index-CjZb1nI3.js";import{A as r}from"./index-CcV6fPYP.js";import{S as o}from"./SignUpForm-Yd1M45VO.js";import"./vendor-CHNy6hz8.js";import"./Helmet-Dl6iRkPx.js";import"./PasswordInput-BaBY6XLO.js";const e=()=>t.jsx(r,{title:"Sign Up",children:t.jsx(o,{})});export{e as default};

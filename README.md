@@ -71,3 +71,13 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+
+## Static HTML export
+
+To build standalone static versions of every Liga template page, run:
+
+```sh
+npm run export:static
+```
+
+The command compiles the Vite app and writes fully self-contained HTML files plus shared assets to the `static-html/` directory. Open `static-html/page-index.html` (or any individual `*.html` file) in a browser to browse the exported dashboards.

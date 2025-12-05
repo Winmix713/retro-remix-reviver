@@ -1,0 +1,115 @@
+{
+  "generatedAt": "2025-12-05T19:32:51.694Z",
+  "totalPages": 18,
+  "pages": [
+    {
+      "slug": "club-summary",
+      "route": "/",
+      "title": "Club Summary",
+      "description": "Club statistics, league standings, live reports, and attendance.",
+      "isDefault": true
+    },
+    {
+      "slug": "game-summary",
+      "route": "/game-summary",
+      "title": "Game Summary",
+      "description": "Match analytics with possession, shots, cards, and player metrics."
+    },
+    {
+      "slug": "championships",
+      "route": "/championships",
+      "title": "Championships",
+      "description": "Tournament overview, tables, fixtures, and live brackets."
+    },
+    {
+      "slug": "league-overview",
+      "route": "/league-overview",
+      "title": "League Overview",
+      "description": "Complete league picture with rankings, forms, and stats."
+    },
+    {
+      "slug": "fans-community",
+      "route": "/fans-community",
+      "title": "Fans Community",
+      "description": "Fan engagement hub with chats, highlights, and polls."
+    },
+    {
+      "slug": "statistics",
+      "route": "/statistics",
+      "title": "Statistics",
+      "description": "Advanced analytics, KPIs, and comparative data."
+    },
+    {
+      "slug": "match-summary",
+      "route": "/match-summary",
+      "title": "Match Summary",
+      "description": "Detailed recap with data visualizations and commentary."
+    },
+    {
+      "slug": "match-overview",
+      "route": "/match-overview",
+      "title": "Match Overview",
+      "description": "Upcoming fixtures, odds, match cards, and deadlines."
+    },
+    {
+      "slug": "player-profile",
+      "route": "/player-profile",
+      "title": "Player Profile",
+      "description": "Player bio, performance trends, and scouting data."
+    },
+    {
+      "slug": "schedule",
+      "route": "/schedule",
+      "title": "Schedule",
+      "description": "Calendar with matches, training sessions, and events."
+    },
+    {
+      "slug": "tickets",
+      "route": "/tickets",
+      "title": "Tickets",
+      "description": "Smart ticketing with seat maps, offers, and filters."
+    },
+    {
+      "slug": "football-store",
+      "route": "/football-store",
+      "title": "Football Store",
+      "description": "Club store with kits, accessories, and team collections."
+    },
+    {
+      "slug": "brand-store",
+      "route": "/brand-store",
+      "title": "Brand Store",
+      "description": "Lifestyle store for premium drops and collaborations."
+    },
+    {
+      "slug": "product",
+      "route": "/product",
+      "title": "Product Detail",
+      "description": "Product hero page with rich media, specs, and reviews."
+    },
+    {
+      "slug": "login",
+      "route": "/login",
+      "title": "Login",
+      "description": "Secure authentication with modern UI."
+    },
+    {
+      "slug": "sign-up",
+      "route": "/sign-up",
+      "title": "Sign Up",
+      "description": "Self-service onboarding and profile creation."
+    },
+    {
+      "slug": "settings",
+      "route": "/settings",
+      "title": "Settings",
+      "description": "Preferences for theme, notifications, and security."
+    },
+    {
+      "slug": "page-not-found",
+      "route": "/404",
+      "title": "404 - Page Not Found",
+      "description": "Friendly error state for unknown routes."
+    }
+  ]
+}
